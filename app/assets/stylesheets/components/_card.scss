@@ -1,0 +1,50 @@
+.card-list-row{
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.card-category {
+  margin:20px;
+  background-size: cover;
+  background-position: center;
+  max-width: 500px;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+.card-list{
+  padding:20px 40px;
+}
+.header{
+  height: 180px;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  justify-content: center;
+  h1{
+    color: white;
+  }
+}
+.list_form{
+  width: 300px;
+}
+.btn-icon{
+  text-decoration: none;
+  position: absolute;
+  bottom: -20px;
+  right: 20px;
+}
+.btn-new{
+  display: flex;
+
+}
+.cont{
+  position: relative;
+}
